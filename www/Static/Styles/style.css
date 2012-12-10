@@ -260,6 +260,21 @@
     color: #888;
   }
   
+  .block-small h4,
+  .block-medium h4,
+  .block-large h4
+  {
+    font: 12px Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin-top: 3px;
+    color: #888;
+    margin: 20px 0 0 0;
+  }
+  
+  .block-large .block-small h4 {
+    margin-top: 20px;  
+  }
+  
   .block-large .visual {
     position: relative;
     width: 620px;
@@ -314,6 +329,10 @@
     margin: 20px 0 0 0;
   }
   
+  .block-large h2 {
+    margin: 0px;  
+  }
+  
   .block-small .visual {
     position: relative;
     width: 300px;
@@ -325,7 +344,8 @@
     margin-right: 20px;
   }
   
-  .block-medium ~ .block-small {
+  .block-medium ~ .block-small,
+  .block-small ~ .block-medium {
     margin-right: 0;
   }
   
