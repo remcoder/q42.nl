@@ -7,8 +7,6 @@
     .noShowreel nav.dynamic,
     .noShowreel nav { position: absolute; }
     
-    .block-text h1,
-    #showreel2 .item p { font-size: 71px; }
     #homecontent { margin-top: 0px; }
     
     .inline-livejs { display: none; }
@@ -19,13 +17,6 @@
   @media all and (max-width: 940px) {
     
     #showreel2 { height: 310px; }
-    .block-text h1,
-    #showreel2 .item p { font-size: 2.84em; }
-    
-    
-    
-    .block-large > figure > .body > h2 { font-size: 30px; }
-    /*.block-small h2 { font-size: 18px; }*/
     
     body > section, 
     #footer > section { width: 620px; }
@@ -71,7 +62,7 @@
     nav .logo { width: 17%; }
     
     
-    nav .pos { width: 620px; font-size: 31px; }
+    nav .pos { width: 620px; }
     nav,
     nav ul,
     nav ul li { height: 50px; line-height: 50px; }
@@ -88,8 +79,6 @@
   @media all and (max-width: 620px) {
     
     #showreel2 { height: 200px; }
-    .block-text h1,
-    #showreel2 .item p { font-size: 37px; }
     
     body > section,
     #footer > section,
@@ -124,7 +113,7 @@
     /* header */
     nav .logo { width: 11%; }
     nav { position: absolute; }
-    nav .pos { width: 460px; font-size: 22px; }  
+    nav .pos { width: 460px; }  
    
     #colleagues {
       margin-right: 0px;
@@ -145,12 +134,8 @@
     }
     #colleagues ol li > .name {
       margin-left: 70px;
-      color: #000;
-      text-shadow: none;
       top: 0px;
       background: none;
-      font-family: 'Shadows Into Light', cursive;
-      font-size: 25px;
       position: relative;
     }
     
@@ -165,7 +150,6 @@
       position: relative;
       display: block;
       margin: 0px 0 0 79px;
-      font-size: 12px;
     }
 
     .fb_iframe_widget,
@@ -198,21 +182,13 @@
   
   
   @media all and (max-width: 480px) {
-    #visual,
-    .block-small figure img { xdisplay: none; }
-    
     #showreel2 { height: 170px; }
-    #showreel2 .item p { font-size: 24px; bottom: 53px; right: 10px; }
+    #showreel2 .item p { bottom: 53px; right: 10px; }
     
     #header { height: 65px; }
     #q42is { margin-left: 5px; }
     #q42is-header { margin-right: 10px; }
-    #q42is-header h1 { font-size: 1.54em;}
     #q42is span { padding-right:5px; }
-    
-    .block-text h1 { font-size: 39px; }
-    
-
     
     .lt-480 #header { margin-bottom: 0; border-bottom: solid 1px #ccc; }
     
@@ -253,11 +229,9 @@
     #footer .block-small .body,
     #footer .block-small .visual { width: 100%; }
     #footer .block-small:nth-of-type(3) { width: 100%; padding-top: 0;}
-    #footer > section > h1 { font-size: 40px; }
-    
     
     /* header */
-    nav .pos { width: 100%; font-size: 22px; }  
+    nav .pos { width: 100%; }  
     nav, nav ul, nav ul li { height: 65px; line-height: 50px; }
     nav .logo { width: 10%; }
     nav ul:nth-of-type(1) { width: 46%; }
@@ -266,7 +240,7 @@
     nav ul { margin: 6px 10px 0 10px; }
     nav ul li { float: none; height: 26px; line-height: 26px; text-align: left;}
     
-    nav#pageNav ul:nth-of-type(1) { width: 100%; font-size: 0.7em }
+    nav#pageNav ul:nth-of-type(1) { width: 100%; }
     nav#pageNav ul:nth-of-type(1) li { margin-right: 17px; }
     
     /* end 480 */

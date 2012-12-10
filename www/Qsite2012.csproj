@@ -640,6 +640,7 @@
     <Content Include="Static\Scripts\script.js" />
     <Content Include="Static\Scripts\seurat.js" />
     <Content Include="Static\Styles\components.css" />
+    <Content Include="Static\Styles\fonts.css" />
     <Content Include="Static\Styles\iefixes.css" />
     <Content Include="Static\Styles\css-responsive.css" />
     <Content Include="Static\Styles\Fonts\BebasNeueRegular.css" />

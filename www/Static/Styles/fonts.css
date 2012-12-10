@@ -1,0 +1,136 @@
+/* GENERIC */
+body, h1, h2, h3, h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 17px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+.title {
+  font-family: bebas-neue, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+}
+a, a:visited {
+  color: #1D78B4;
+  text-decoration: none;
+}
+a:hover {
+  color: #1D78B4;
+  text-decoration: underline;
+}
+
+/* EXCEPTIONS */
+#showreel2 {
+  color: #FFF;
+  text-shadow: 0px 0px 3px #000;
+}
+#footer {
+  color: #888;
+}
+#footer h2 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  color: #FFF;
+}
+#footer b {
+  color: #232323;
+  font-weight: normal;
+}
+#footer #endtag {
+  font-family: LeagueGothicRegular, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+article .category {
+  color: #000;
+}
+.block-text h1 b, .blog h1 b {
+  color: #232323;
+  font-weight: normal;
+}
+.block-large .introText {
+  font-size: 1.2em;
+}
+.visual.caption p {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#colleagues .written {
+  font-family: 'Shadows Into Light' , cursive;
+  font-size: 25px;
+}
+.polaroid h3 {
+  font-family: 'Shadows Into Light' , cursive;
+  font-size: 18px;
+  line-height: 21px;
+}
+.counter {
+  font-size: 78px;
+  line-height: 41px;
+}
+
+
+@media all and (max-width: 1024px) {
+  .block-text h1, #showreel2 .item p {
+    font-size: 71px;
+  }
+}
+
+@media all and (max-width: 940px) {
+  .block-text h1, #showreel2 .item p {
+    font-size: 2.84em;
+  }
+  .block-large > figure > .body > h2 {
+    font-size: 30px;
+  }
+  nav .pos {
+    font-size: 31px;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .block-text h1, #showreel2 .item p {
+    font-size: 37px;
+  }
+  nav .pos {
+    font-size: 22px;
+  }
+  #colleagues ol li > .name {
+    font-family: 'Shadows Into Light' , cursive;
+    font-size: 25px;
+    color: #000;
+    text-shadow: none;
+  }
+  #colleagues ol li .contactData {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  #showreel2 .item p {
+    font-size: 24px;
+  }
+  #q42is-header h1 {
+    font-size: 1.54em;
+  }
+  .block-text h1 {
+    font-size: 39px;
+  }
+  #footer > section > h1 {
+    font-size: 40px;
+  }
+  nav .pos {
+    font-size: 22px;
+  }
+  nav#pageNav ul:nth-of-type(1) {
+    font-size: 0.7em;
+  }
+}
