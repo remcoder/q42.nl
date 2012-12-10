@@ -81,6 +81,15 @@
     </Compile>
     <Compile Include="Models\ErrorModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XsltViewEngine\BlockRenderer.cs" />
+    <Compile Include="XsltViewEngine\CapturingResponseFilter.cs" />
+    <Compile Include="XsltViewEngine\DistinctByExtension.cs" />
+    <Compile Include="XsltViewEngine\HtmlHelperWrapper.cs" />
+    <Compile Include="XsltViewEngine\Plugin.cs" />
+    <Compile Include="XsltViewEngine\Plugins\DataPlugin.cs" />
+    <Compile Include="XsltViewEngine\Serializer.cs" />
+    <Compile Include="XsltViewEngine\XsltView.cs" />
+    <Compile Include="XsltViewEngine\XsltViewEngine.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="demos\138\sjoerd\ifs.html" />
@@ -648,6 +657,7 @@
     <Content Include="Static\Styles\Fonts\LeagueGothic.css" />
     <Content Include="Static\Styles\h5bp.css" />
     <Content Include="Static\Styles\style.css" />
+    <Content Include="Views\Page\test.xslt" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

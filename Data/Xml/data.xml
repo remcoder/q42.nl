@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <page url="/test">
+    <article columns="2">
+      <title>Test</title>
+      <img src=""/>
+      <body>
+        <p>Test</p>
+      </body>
+    </article>
+  </page>
+</data>

@@ -7,6 +7,8 @@ using System.Web.Routing;
 using log4net;
 using log4net.Config;
 using Qsite2012.Controllers;
+using Q42.Mvc.XsltViewEngine;
+using Qsite2012.Plugins;
 
 namespace Qsite2012
 {
@@ -30,7 +32,7 @@ namespace Qsite2012
           "Default", // Route name
           "{id}", // URL with parameters
           new { controller = "Page", action = "Index" },
-          new { id = "Games|Gereedschapskist|Interaction-Engineering|Over-Q42|Producten|Projecten|Systeembeheersysteem|w00tcamp" } // regular expression matching all valid controllers
+          new { id = "test|Games|Gereedschapskist|Interaction-Engineering|Over-Q42|Producten|Projecten|Systeembeheersysteem|w00tcamp" } // regular expression matching all valid controllers
       );
 
       routes.MapRoute(
@@ -50,7 +52,10 @@ namespace Qsite2012
 
       RegisterGlobalFilters(GlobalFilters.Filters);
       RegisterRoutes(RouteTable.Routes);
-
+      //ViewEngines.Engines.Clear();
+      var xlsEngine = new XsltViewEngine();
+      xlsEngine.AddExtension("urn:dataplugin", (v, c) => new DataPlugin());
+      ViewEngines.Engines.Add(xlsEngine);
     }
 
     protected void Application_Error(object sender, EventArgs e)
