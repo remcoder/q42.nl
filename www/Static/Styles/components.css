@@ -330,6 +330,12 @@
   .block-large .bigTextVisual img { max-width: 100%; }
   .block-large .introText { font-size: 19px; }
   
+  /* Block medium */
+  .block-medium { width: 620px; margin: 0 20px 0 0; float: left;  }
+  .block-medium .body { width: 620px; }
+  .block-medium .visual { max-width: 620px; }
+  
+  
   /* Qers */
   #colleagues { margin-right: -30px; }
   

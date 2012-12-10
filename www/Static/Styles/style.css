@@ -249,24 +249,11 @@
   .block-large h1 {
     text-align: left;
   }
-  article h2,
-  .block-large > figure > .body > h2
-  {
-    font: normal 40px bebas-neue, Arial, Helvetica, sans-serif;
-    letter-spacing: 0.04em;
-    margin: 0 0 20px 0;
-    
-    color: #232323;
-  }
-  .block-large > figure > .body > h3 {
-    font: 12px Arial, Helvetica, sans-serif;
-    padding: 0px;
-    margin-top: -18px;
-    color: #888;
-  }
   
-  
-  .block-small h3 {
+  .block-small h3,
+  .block-medium h3,
+  .block-large h3
+   {
     font: 12px Arial, Helvetica, sans-serif;
     padding: 0px;
     margin-top: 3px;
@@ -320,7 +307,9 @@
   .contains-body-and-blocks .block-small {
     border-top: solid #aaa 1px;
   }
-  .block-small h2 {
+  .block-small h2,
+  .block-medium h2,
+  .block-large h2 {
     font: normal 25px ChevinLightItalicRegular, Georgia, Times, serif;
     margin: 20px 0 0 0;
   }
@@ -334,6 +323,10 @@
   .block-small:nth-of-type(1),
   .block-small:nth-of-type(2) {  
     margin-right: 20px;
+  }
+  
+  .block-medium ~ .block-small {
+    margin-right: 0;
   }
   
   .subcontent {
